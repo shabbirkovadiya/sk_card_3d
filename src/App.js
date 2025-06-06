@@ -4,7 +4,7 @@ import { Canvas, extend, useThree, useFrame } from '@react-three/fiber'
 import { useGLTF, useTexture, Environment, Lightformer } from '@react-three/drei'
 import { BallCollider, CuboidCollider, Physics, RigidBody, useRopeJoint, useSphericalJoint } from '@react-three/rapier'
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline'
-import { useControls } from 'leva'
+// import { useControls } from 'leva'
 
 extend({ MeshLineGeometry, MeshLineMaterial })
 useGLTF.preload('https://res.cloudinary.com/dfkofafha/image/upload/v1722075427/sk_3d_card_nidepq.glb')
